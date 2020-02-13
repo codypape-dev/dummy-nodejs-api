@@ -14,5 +14,4 @@ const options = {
   family: 4, // Use IPv4, skip trying IPv6
   dbName:'sample_dummies'
 };
-mongoose.connect('mongodb+srv://usrDummies:FjKm7LtOOR22v8m0@dummies-cluster-x9n8u.gcp.mongodb.net/test?retryWrites=true&w=majority', options);
-mongoose.da
+mongoose.connect('mongodb://yourDatabaseURI', options);
